@@ -1,0 +1,28 @@
+1) Посмотреть где я - pwd
+2) Создать папку - mkdir zanyatie
+3) Зайти в папку - cd zanyatie
+4) Создать 3 папки - mkdir one two three
+5) Зайти в любоую папку - cd one
+6) Создать 5 файлов (3 txt, 2 json) - touch one.txt two.txt three.txt one.json two.json
+7) Создать 3 папки - mkdir first second third
+8. Вывести список содержимого папки - ls -la
+9) + Открыть любой txt файл - vim one.txt
+10) + написать туда что-нибудь, любой текст. - "i"+ ввод текста
+11) + сохранить и выйти. - :wq!
+12) Выйти из папки на уровень выше - cd ..
+13) переместить любые 2 файла, которые вы создали, в любую другую папку.
+mv one.json /c/Users/Я/zanyatie/one/one.json
+mv two.txt /c/Users/Я/zanyatie/two/two.txt
+14) скопировать любые 2 файла, которые вы создали, в любую другую папку.
+cp one.txt /c/Users/Я/zanyatie/one/one.txt
+cp three.txt /c/Users/Я/zanyatie/three/three.txt
+15) Найти файл по имени - find two.json
+16) просмотреть содержимое в реальном времени (команда grep) изучите как она работает.
+grep -i text /c/Users/Я/zanyatie/one/one.txt
+17) вывести несколько первых строк из текстового файла
+head -n 2 one.txt
+18) вывести несколько последних строк из текстового файла
+tail -n 2 one.txt
+19) просмотреть содержимое длинного файла (команда less) изучите как она работает.
+less one.txt
+20) вывести дату и время - date
