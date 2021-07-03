@@ -1,0 +1,11 @@
+#! /bin/bash
+cd /C/Users/Я/zanytie
+mkdir p1 p2 p3
+cd p1
+touch 1.txt 2.txt 3.txt 1.json 2.json
+mkdir p11 p22 p33
+ls -la
+mv 1.txt /C/Users/Я/zanytie/p1/p11/1.txt
+mv 2.josn /C/Users/Я/zanytie/p1/p22/2.json
+
+
